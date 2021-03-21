@@ -1,0 +1,453 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Baskerville Old Face;
+}
+
+/******** logo ********/
+.logo{
+	width: 100%
+	height: 60px;
+	text-align: center;
+	background: #94c5e5;
+}
+
+.logo img{
+	width: 55px;
+	margin-top: 20px;
+	margin-left: 60px;
+}
+
+.logo h2{
+	display: inline;
+	line-height: 100px;
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+}
+
+
+.clear{
+	clear: both;
+}
+
+/******** navigation bar ********/
+.navbar{
+	width: 100%;
+	height: 70px;
+	background: #94c5e5;
+}
+
+.navbar ul{
+	list-style: none;
+	text-align: left;
+	line-height: 50px;
+}
+
+.navbar ul li{
+	display: inline-block;
+}
+
+.navbar ul li a{
+	color: #fff;
+	text-decoration: none;
+	margin-left: 20px;
+	font-size: 28px;
+	letter-spacing: 3px;
+}
+
+.navbar ul li a:hover{
+	color: orange;
+}
+
+.navbar ul li a.active{
+	color: #ff0048;
+}
+
+.navbar .sign{
+	margin-left: 790px;
+	background: orange;
+	border-radius: 25px;
+	padding: 5px 10px;
+	font-size: 20px;
+}
+
+.navbar .sign:hover{
+	color: #095dab;
+}
+
+.navbar hr{
+	width: 85%;
+	margin-top: 5px;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+/******** search ********/
+.search{
+	width: 100%;
+	height: 250px;
+	text-align: center;
+	background: #94c5e5;
+}
+
+.search h2{
+	margin: 0;
+	padding: 5%;
+	color: #ff0048;
+	font-size: 40px;
+}
+
+.search input{
+	height: 40px;
+	font-size: 22px;
+	border: none;
+	outline: none;
+}
+
+.search input[type=text]{
+	width: 500px;
+	border-radius: 25px 0 0 25px;
+	box-sizing: border-box;
+	padding: 0 25px;
+
+}
+
+.search input[type=submit]{
+	width: 100px;
+	cursor: pointer;
+	border-radius: 0 25px 25px 0;
+	color: #ff0048;
+	background: rgb(200,200,200);
+}
+
+.search input[type=submit]:hover{
+	color: #fff;
+}
+
+/******** books ********/
+.book{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding-bottom: 20px;
+	background: rgb(230,230,230);
+	position: relative;
+}
+
+.book .group_book img{
+	width: 240px;
+	height: 320px;
+	cursor: pointer;
+}
+
+
+.book .group_book{
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 35px;
+}
+
+.book .group_book h3{
+	color: #ff0048;
+	font-size: 20px;
+	letter-spacing: 5px;
+
+}
+
+.book button{
+	width: 150px;
+	background: #000;
+	border: 0;
+	color: #fff;
+	padding: 15px;
+	font-size: 16px;
+	margin-top: 60px;
+	letter-spacing: 3px;
+	cursor: pointer;
+	border-radius: 50px;
+	outline: none;
+}
+
+.book button:hover{
+	color: #ff0048;
+}
+
+
+/******** end ********/
+.end{
+	width: 100%;
+	height: 900px;
+	padding-top: 7%;
+	background: url(../Images/cover_2.jpg);
+	text-align: center;
+}
+
+.end .content{
+	width: 350px;
+	display: inline-block;
+	color: #fff;
+	margin: 35px;
+	font-size: 20px;
+}
+
+.end .content h2{
+	padding: 0;
+	margin: 0;
+}
+
+.end a{
+	background: #fff;
+	font-size: 18px;
+	text-decoration: none;
+	border: 0;
+	width: 100px;
+	padding: 15px;
+	color: #000;
+	border-radius: 50px;
+	outline: none;
+	letter-spacing: 2px;
+}
+
+.end a:hover{
+	color: #f79b3f;
+}
+
+.end .bol{
+	text-align: center;
+	margin-top: 8%;
+
+}
+
+.end .bol span{
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	background: #fff;
+	border-radius: 50%;
+
+}
+
+.end .bol span:hover{
+	background: #ff0048;
+}
+
+/******** footer ********/
+.footer{
+	width: 100%;
+	height: 80px;
+	text-align: center;
+	background: #dddddd;
+	line-height: 80px;
+	font-size: 25px;
+}
+
+/******************************* Contact *******************************/
+.contact{
+	width: 100%;
+	height: 630px;
+	text-align: center;
+	padding-top: 8%;
+	background: url(../Images/coverPage2.PNG);
+	background-size: cover; 
+}
+
+.contact h2{
+	margin: 0;
+	font-size: 40px;
+	font-style: italic;
+}
+
+.contact p{
+	font-size: 25px;
+}
+
+.contact .form{
+	width: 400px;
+	height: 400px;
+	margin: auto;
+}
+
+.contact .form h2{
+	color: #ff0048;
+}
+
+.contact .form input[type=text],textarea{
+	display: block;
+	width: 100%;
+	height: 35px;
+	border: 0;
+	margin-bottom: 10px;
+	background: #f8f8f8;
+	color: #000;
+	padding-left: 10px;
+	font-size: 15px;
+	border-radius: 10px;
+	outline: none;
+}
+
+textarea{
+	height: 200px;
+}
+
+.contact .form input[type=Submit]{
+	float: right;
+	border: 0;
+	background: orange;
+	padding: 10px;
+	cursor: pointer;
+	border-radius: 50px;
+	letter-spacing: 1.5px;
+	outline: none;
+}
+
+.contact .form input[type=Submit]:hover{
+	color: #fff;
+}
+
+.follow{
+	width: 100%;
+	height: 300px;
+	background: #f5f5f5;
+	text-align: center;
+	padding-top: 2%;
+}
+
+.follow h2{
+	margin: 0;
+	color: #df1a5a;
+	font-size: 35px;
+
+}
+
+.follow p{
+	font-size: 45px;
+	letter-spacing: 30px;
+}
+
+.follow .read{
+	font-size: 25px;
+	letter-spacing: 1px;
+}
+
+
+/******************************* sign in *******************************/
+.sign{
+	text-align: center;
+	padding-top: 5%;
+}
+
+.sign h2{
+	font-size: 40px;
+	font-style: italic;
+	padding-bottom: 45px;
+}
+
+.sign .Signform{
+	width: 500px;
+	height: 400px;
+	margin: auto;
+}
+
+.sign .Signform h2{
+	color: #ff0048;
+	padding-bottom: 3px;
+}
+
+.sign .Signform input[type=text],input[type=password]{
+	display: block;
+	width: 100%;
+	height: 35px;
+	border: 0;
+	margin-bottom: 20px;
+	background: rgb(220,220,220);
+	color: #000;
+	padding-left: 10px;
+	font-size: 15px;
+	border-radius: 10px;
+	outline: none;
+}
+
+.sign .Signform input[type=Submit]{
+	float: right;
+	border: 0;
+	background: orange;
+	padding: 10px;
+	font-size: 13px;
+	cursor: pointer;
+	border-radius: 50px;
+	outline: none;
+	letter-spacing: 1.5px;
+}
+
+.sign .Signform input[type=Submit]:hover{
+	color: #fff;
+}
+
+/******************************* book online *******************************/
+.services{
+	width: 100%;
+	height: 700px;
+	text-align: center;
+	padding-top: 5%;
+	background: url(../Images/cover.png);
+	background-size: cover; 
+}
+
+.services h2{
+	font-size: 40px;
+	color: #fff;
+	letter-spacing: 1.5px;
+}
+
+.services .cover{
+	width: 900px;
+	height: 380px;
+	background: #fff;
+	margin: auto;
+	padding-top: 5%;
+
+}
+
+.services .cover .left img{
+	width: 100%;
+}
+
+.services .cover .left{
+	width: 45%;
+	float: left;
+	margin-left: 5%;
+	height: 252px;
+}
+
+.services .cover .right{
+	width: 45%;
+	float: right;
+	background: #eee;
+	margin-right: 5%;
+	height: 250px;
+	padding-top: 6%;
+}
+
+.services .cover .right p{
+	font-size: 25px;
+}
+
+.services .cover .right button{
+	background: #000;
+	color: #fff;
+	border: 0;
+	padding: 10px;
+	cursor: pointer;
+	outline: none;
+	border-radius: 40px 0px 40px 0px;
+	letter-spacing: 1px;
+}
+
+.services .cover .right button:hover{
+	color: #ff0048;
+	border-radius: 0px 40px 0px 40px;
+}
